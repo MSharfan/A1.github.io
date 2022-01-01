@@ -1,0 +1,148 @@
+body{
+    background: linear-gradient(to right, #fa7ba5, rgb(227, 240, 108));
+    font-family: sans-serif;
+}*
+{
+    margin: 0ch;
+    padding: 0ch;
+    box-sizing: border-box;
+}
+header,footer{
+    position: absolute;
+    background : linear-gradient(to right, #9c27b0, #8ecdff);
+    width: 100%;
+    height: 10%;
+}
+.logo{
+    position: absolute;
+    margin-top: -5%;
+    left: -15%;
+    width: 70%;
+    height: 250%;
+    cursor: pointer;
+} 
+h2{
+    position: absolute;
+    left: 60%;
+    top: 50%;
+    text-shadow: 7px 10px 10px;
+} 
+h2 :hover{
+    font-size: 120%;
+    color: #ff0101;
+}
+footer{
+    position: absolute;
+    height: 10vh;
+    bottom: 0ch;
+    font-size: 10;
+}
+h1{
+    position: absolute;
+    left: 3%;
+    top: 10%;
+    color: rgb(0, 0, 0);               
+    width: device-width;
+    height: device-heigth;
+    text-align: center;
+}
+p{
+    position:absolute;
+    width:device-width;
+    height: device-width;
+    color: rgb(211, 31, 31);
+     top: 13%;
+     left: 3%;
+}  
+#wrapper{
+    background: transparent;
+    width: device-width;
+    height: 400px;
+    position: absolute;
+    border-radius: 50px;
+    box-shadow: 0px 10px 25px #0112ff;
+    left: 10%;
+    right: 10%; 
+    top: 25%;
+}
+a{
+    position: absolute;
+    height: device-width;
+    width: device-width;
+    top: 20%;
+    left: 30%;
+} 
+.link1{
+    position:absolute;
+    width: device-width;
+    height: device-width;
+    left: 9%;
+    top: 10%;
+}
+#div1{
+    position:absolute;
+    width: 75px;
+    height: 75px;
+}
+.link1 :hover{
+    font-size: 150%;
+    font-family:'Times New Roman', Times, serif;
+    color: rgb(253, 0, 0);
+    cursor: pointer;
+    text-shadow: 30px 10px 10px;
+}
+.link2{
+    position:absolute;
+    left: 55%;
+    top: 10%;
+}
+img{
+    width: 75px;
+    height: 75px;
+}
+.link2 :hover{
+    font-size: 150%;
+    font-family:'Times New Roman', Times, serif;
+    color: rgb(255, 0, 0);
+    cursor: pointer;
+    text-shadow: 30px 10px 10px;  
+}
+.link3{
+    position:absolute;
+    left: 10%;
+    top: 50%;
+}
+img{
+    width: 75px;
+    height: 75px;
+}
+.link3 :hover{
+    font-size: 150%;
+    font-family:'Times New Roman', Times, serif;
+    color: rgb(253, 0, 0);
+    cursor: pointer;
+    text-shadow: 30px 10px 10px;    
+}
+.link4{
+    position:absolute;
+    left: 55%;
+    top: 50%;
+}
+img{
+    width: 75px;
+    height: 75px;
+}
+.link4 :hover{
+    font-size: 150%;
+    font-family:'Times New Roman', Times, serif;
+    color: rgb(255, 0, 0);
+    cursor: pointer;
+    text-shadow: 30px 10px 10px;
+}
+h4{
+    text-shadow: 10px 10px 10px;
+}
+h4 :hover{
+    font-size: 150%;
+    color:red;
+}
